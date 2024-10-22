@@ -1,0 +1,14 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     'test/bin/ft_memmove.test'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _test_ft_memmove_no_overlap, symObjAddr: 0x0, symBinAddr: 0x100003644, symSize: 0x1CC }
+  - { offsetInCU: 0x46, offset: 0x46, size: 0x8, addend: 0x0, symName: _test_ft_memmove_no_overlap, symObjAddr: 0x0, symBinAddr: 0x100003644, symSize: 0x1CC }
+  - { offsetInCU: 0x86, offset: 0x86, size: 0x8, addend: 0x0, symName: _test_ft_memmove_overlap_dest_before_src, symObjAddr: 0x1CC, symBinAddr: 0x100003810, symSize: 0x1A4 }
+  - { offsetInCU: 0xB8, offset: 0xB8, size: 0x8, addend: 0x0, symName: _test_ft_memmove_overlap_src_before_dst, symObjAddr: 0x370, symBinAddr: 0x1000039B4, symSize: 0x1D4 }
+  - { offsetInCU: 0xEA, offset: 0xEA, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x544, symBinAddr: 0x100003B88, symSize: 0x20 }
+  - { offsetInCU: 0x26, offset: 0x13C, size: 0x8, addend: 0x0, symName: _assert, symObjAddr: 0x0, symBinAddr: 0x100003BA8, symSize: 0x94 }
+  - { offsetInCU: 0x41, offset: 0x157, size: 0x8, addend: 0x0, symName: _assert, symObjAddr: 0x0, symBinAddr: 0x100003BA8, symSize: 0x94 }
+  - { offsetInCU: 0x26, offset: 0x1E5, size: 0x8, addend: 0x0, symName: _ft_memmove, symObjAddr: 0x0, symBinAddr: 0x100003C3C, symSize: 0x120 }
+  - { offsetInCU: 0x3A, offset: 0x1F9, size: 0x8, addend: 0x0, symName: _ft_memmove, symObjAddr: 0x0, symBinAddr: 0x100003C3C, symSize: 0x120 }
+...
