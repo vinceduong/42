@@ -37,6 +37,15 @@ SRC = \
     ./src/ft_tolower.c \
     ./src/ft_toupper.c \
     ./src/ft_atoi.c \
+    ./src/ft_memalloc.c \
+    ./src/ft_memdel.c \
+    ./src/ft_strdel.c \
+    ./src/ft_striter.c \
+    ./src/ft_striteri.c \
+    ./src/ft_strmap.c \
+    ./src/ft_strmapi.c \
+    ./src/ft_strequ.c \
+
 
 
 TEST_SRC = \

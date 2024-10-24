@@ -10,6 +10,7 @@ void test_ft_atoi() {
   Assert(ft_atoi("2147483647") == 2147483647, "return value should be 2147483647");
   Assert(ft_atoi("-2147483648") == -2147483648, "return value should be -2147483648");
   Assert(ft_atoi("-2147483649") == 2147483647, "return value should be 2147483647");
+  Assert(ft_atoi("a-2147483649") == 0, "return value should be 0");
 
   printf("\033[0;32m");
   printf("✅ %s - %s test passed\n", __FILE__, __FUNCTION__);
