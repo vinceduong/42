@@ -2,7 +2,7 @@ NAME = libft.a
 
 CC = gcc
 
-FLAGS = -Wall -Wextra -Werror
+FLAGS = -Wall -Wextra -Werror -g
 
 SRC = \
     ./src/assert.c \
@@ -45,8 +45,9 @@ SRC = \
     ./src/ft_strmap.c \
     ./src/ft_strmapi.c \
     ./src/ft_strequ.c \
-
-
+    ./src/ft_strsub.c \
+    ./src/ft_strjoin.c \
+    ./src/ft_strsplit.c \
 
 TEST_SRC = \
 	./test/ft_isalpha.test.c \
@@ -78,6 +79,9 @@ TEST_SRC = \
     ./test/ft_tolower.test.c \
     ./test/ft_toupper.test.c \
     ./test/ft_atoi.test.c \
+    ./test/ft_strsub.test.c \
+    ./test/ft_strjoin.test.c \
+    ./test/ft_strsplit.test.c \
 
 OBJ_DIR = ./obj
 
