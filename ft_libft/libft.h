@@ -5,6 +5,12 @@
 #include <string.h>
 #include <unistd.h>
 
+typedef struct s_list {
+  void *content;
+  size_t content_size;
+  struct s_list *next;
+} t_list;
+
 #define Assert(bool, err)                                                      \
   assert(bool, err, (char *)__func__, __LINE__, __FILE__);
 
@@ -62,3 +68,5 @@ void ft_putchar_fd(char c, int fd);
 void ft_putstr_fd(char const *s, int fd);
 void ft_putendl_fd(char const *s, int fd);
 void ft_putnbr_fd(int n, int fd);
+
+t_list *ft_lstnew(void const *content, size_t content_size);
