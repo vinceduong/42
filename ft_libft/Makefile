@@ -48,6 +48,7 @@ SRC = \
     ./src/ft_strsub.c \
     ./src/ft_strjoin.c \
     ./src/ft_strsplit.c \
+    ./src/ft_itoa.c \
 
 TEST_SRC = \
 	./test/ft_isalpha.test.c \
@@ -82,6 +83,7 @@ TEST_SRC = \
     ./test/ft_strsub.test.c \
     ./test/ft_strjoin.test.c \
     ./test/ft_strsplit.test.c \
+    ./test/ft_itoa.test.c \
 
 OBJ_DIR = ./obj
 
