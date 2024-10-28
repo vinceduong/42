@@ -50,6 +50,7 @@ SRC = \
     ./src/ft_strsplit.c \
     ./src/ft_itoa.c \
     ./src/ft_lstnew.c \
+    ./src/ft_lstdelone.c \
 
 TEST_SRC = \
 	./test/ft_isalpha.test.c \
@@ -86,6 +87,7 @@ TEST_SRC = \
     ./test/ft_strsplit.test.c \
     ./test/ft_itoa.test.c \
     ./test/ft_lstnew.test.c \
+    ./test/ft_lstdelone.test.c \
 
 OBJ_DIR = ./obj
 
