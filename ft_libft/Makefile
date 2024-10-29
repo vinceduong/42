@@ -51,6 +51,9 @@ SRC = \
     ./src/ft_itoa.c \
     ./src/ft_lstnew.c \
     ./src/ft_lstdelone.c \
+    ./src/ft_lstadd.c \
+    ./src/ft_lstiter.c \
+    ./src/ft_lstmap.c \
 
 TEST_SRC = \
 	./test/ft_isalpha.test.c \
@@ -88,6 +91,9 @@ TEST_SRC = \
     ./test/ft_itoa.test.c \
     ./test/ft_lstnew.test.c \
     ./test/ft_lstdelone.test.c \
+    ./test/ft_lstadd.test.c \
+    ./test/ft_lstiter.test.c \
+    ./test/ft_lstmap.test.c \
 
 OBJ_DIR = ./obj
 
